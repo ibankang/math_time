@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="750dp"
+        app:srcCompat="@drawable/mathtime"
+        android:layout_centerHorizontal="true"/>
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_width="500dp"-->
+<!--        android:layout_height="800dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginStart="25dp"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        android:layout_marginEnd="25dp"-->
+<!--        android:layout_marginBottom="25dp"-->
+<!--        android:paddingVertical="60dp"-->
+<!--        app:srcCompat="@drawable/calculator_logo" />-->
+
+    <TextView
+        android:id="@+id/Splash_Title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:shadowColor="@android:color/white"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="30"
+        android:padding="5dp"
+        android:text="* / Calculator + -"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#F44336"
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Splash_Title"
+        android:layout_alignEnd="@+id/Splash_Title"
+        android:layout_alignBottom="@+id/Splash_Title"
+        android:layout_marginTop="640dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="11dp"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="166dp"
+        android:text="From"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Splash_Title"
+        android:layout_alignEnd="@+id/Splash_Title"
+        android:layout_alignBottom="@+id/Splash_Title"
+        android:layout_marginTop="659dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="11dp"
+        android:shadowColor="@android:color/white"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="10"
+        android:text="Iban Kang"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
