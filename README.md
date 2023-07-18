@@ -4,6 +4,8 @@ advanced mathematical operations with intuitive functionality and a sleek interf
 and arithmetic calculations for the fully functional app.
 
 Splash Screen
-<a href="#"><img src="
-https://github.com/ibankang/math_time/assets/111854504/d005d373-442a-48b3-a56f-3fc9c8ff7ef7" align="left" height="48" width="48" ></a>
+<p align="center">
+  <img src="[your_relative_path_here](https://github.com/ibankang/math_time/assets/111854504/d005d373-442a-48b3-a56f-3fc9c8ff7ef7)" width="350" title="hover text">
+</p>
+
 
